@@ -1,0 +1,42 @@
+/*  カシオ電卓風のスタイルをここに記述します。  */
+body {
+  background-color: #f0f0f0;
+  font-family: monospace;
+}
+
+#calculator {
+  width: 300px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+#display {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  height: 40px;
+  text-align: right;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 60px;
+  height: 40px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.operator {
+  background-color: #ffa500; /* オレンジ色 */
+}
+
+.equal {
+  background-color: #008000; /* 緑色 */
+}
